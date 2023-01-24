@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <com.example.awesomebird.GameView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="restart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="3dp"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:text="1"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>
